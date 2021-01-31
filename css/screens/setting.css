@@ -1,0 +1,95 @@
+
+.setting-screen__header {
+  margin-top: 15px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting-screen__header > div {
+  width: 33%;
+}
+
+.setting-screen__header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.setting-screen__header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.setting-screen__header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.setting-screen__header-right > i {
+  margin-left: 30px;
+}
+
+.setting-screen__header i {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.setting-screen__main {
+  margin-top: 20px;
+  margin-bottom: 70px;
+  padding: 0 20px;
+}
+
+.setting-screen__first-area {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.setting-screen__component {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+}
+
+
+.setting-screen__component:last-child {
+  border-bottom: none;
+}
+
+.setting-screen__first-area-component:last-child {
+  border-bottom: none;
+}
+
+.setting-screen__second-area {
+  padding-top: 20px;
+}
+
+.setting-screen__component .notification {
+  position: static;
+  margin-left: 10px;
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
+  font-size: 10px;
+}
+
+.setting-screen__component-left {
+  display: flex;
+  align-items: center;
+}
+
+.setting-screen__component-left i {
+  margin-right: 20px;
+}
+
+.setting-screen__conponent-right {
+  color: rgba(0, 0, 0, 0.5);
+}

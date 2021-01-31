@@ -1,0 +1,68 @@
+
+.login-screen__main {
+  margin-top: 80px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.login-screen__text-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-screen__title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.login-screen__text {
+  color: var(--lightgray);
+  font-weight: 600;
+  width: 60%;
+  margin-top: 30px;
+}
+
+.login-screen__login-area {
+  margin-top: 90px;
+}
+
+.login-screen__login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__input-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__input-area > input {
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+}
+
+.login-form__input-area > input:focus {
+  border-color: rgba(0, 0, 0, 0.8);
+}
+
+.login-form__button-area {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__button-area > button {
+    margin-top: 10px;
+    height: 60px;
+    border: none;
+    font-weight: 600;
+}
+
+.login-screen__find-account {
+  font-weight: 600;
+  font-size: 14px;
+}

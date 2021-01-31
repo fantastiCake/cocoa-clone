@@ -1,0 +1,46 @@
+
+.friends-screen__friends-name-display {
+  height: 55px;
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.03);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.friends-screen__friends-name-display > i {
+  color: rgba(0, 0, 0, 0.2);
+  margin: 0 10px;
+}
+
+.friends-screen__main {
+  padding: 0 20px;
+  margin-bottom: 70px;
+}
+
+.friends-screen__profile {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.friends-screen__channel-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--lightgray);
+}
+
+.friends-screen__channel-profile .profile__image {
+  height: 60px;
+  width: 60px;
+  border-radius: 20px;
+}
+
+.channel-profile .profile__text-area {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.channel-profile .profile__button-area {
+  color: var(--lightgray);
+}

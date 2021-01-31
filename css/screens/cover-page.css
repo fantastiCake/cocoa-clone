@@ -1,0 +1,25 @@
+
+.cover-page {
+  position: absolute;
+  top: 0;
+  background-color: #ffdf01;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  color: #391a1b;
+  animation: hiding-coverpage 0.7s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes hiding-coverpage{
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

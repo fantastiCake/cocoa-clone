@@ -1,0 +1,33 @@
+
+.profile {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile__info {
+  display: flex;
+  align-items: center;
+}
+
+.profile__image {
+  height: 80px;
+  width: 80px;
+  border-radius: 30px;
+  background-color: tomato;
+}
+
+.profile__text-area {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__subtitle {
+  font-size: 15px;
+  color: var(--lightgray);
+  margin-top: 10px;
+}
